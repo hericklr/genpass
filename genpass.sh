@@ -1,8 +1,7 @@
 #!/bin/bash
 ROOT="$(cd "$(dirname "$0")" && pwd)"
 DATA=$(
-	yad --fontname="Fira Code" \
-	--form \
+	yad --form \
 	--center \
 	--fixed \
 	--borders=10 \
@@ -26,8 +25,7 @@ do
 	((PASSWORDS_COUNT--))
 done
 DATA=$(
-	echo "${PASSWORDS::-1}" | yad --fontname="Fira Code" \
-	--width=600 \
+	echo "${PASSWORDS::-1}" | yad --width=600 \
 	--height=400 \
 	--no-markup \
 	--borders=10 \
