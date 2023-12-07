@@ -12,6 +12,8 @@ Caso a cor do ícone precise ser modificada deve-se abrir o arquivo SVG em edito
 
 Para criar um lançador no ambiente gráfico é necessário definir o caminho para o script e, se necessário, escolher o ícone que está na mesma pasta (não descrevi o processo completo por variar muito entre todas as opções de GUI)
 
+Como as senhas são aleatórias e possuem muitos caracteres, é sugerido sejam armazenadas em software especializado para tanto, como [Bitwarden](https://bitwarden.com/)
+
 **Instalação dos pacotes necessários (Debian e derivados)**
 ```terminal
 sudo apt install yad xclip
